@@ -32,6 +32,7 @@ const nextConfig: NextConfig = {
       ...config.resolve.alias,
       buffer: path.resolve(__dirname, "node_modules/buffer/"),
       "process/browser": path.resolve(__dirname, "node_modules/process/browser.js"),
+      crypto: path.resolve(__dirname, "node_modules/crypto-browserify"),
     };
     config.plugins.push(
       new webpack.ProvidePlugin({
