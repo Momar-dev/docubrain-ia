@@ -1,0 +1,15 @@
+node_modules/
+.next/
+.env.local
+.env*.local
+*.log
+.DS_Store
+Thumbs.db
+.next-dev/
+dist/
+build/
+*.swp
+*.swo
+.vscode/
+.idea/
+!.env.example
